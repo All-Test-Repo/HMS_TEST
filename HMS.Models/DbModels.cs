@@ -35,21 +35,21 @@ namespace HMS.Models
             public DateTime DateOfDeath { get; set; }
             public string CauseOfDeath { get; set; } = default!;
         }
-        public class Ambulance
-        {
-            [Key]
-            public int AmbulanceID { get; set; }
-            public string AmbulanceNumber { get; set; } = default!;
-            //Driver Phone Number{Required}
-            [Required(ErrorMessage = "Please enter phone number")]
-            [Display(Name = "Phone")]
-            [DataType(DataType.PhoneNumber)]
-            public string PhoneNumber { get; set; } = default!;
-            public string DrivingLiense { get; set; } = default!;
-            public string DriverName { get; set; } = default!;
-            public string LastLocation { get; set; } = default!;
-            public bool Availability { get; set; }
-        }
+        //public class Ambulance
+        //{
+        //    [Key]
+        //    public int AmbulanceID { get; set; }
+        //    public string AmbulanceNumber { get; set; } = default!;
+        //    //Driver Phone Number{Required}
+        //    [Required(ErrorMessage = "Please enter phone number")]
+        //    [Display(Name = "Phone")]
+        //    [DataType(DataType.PhoneNumber)]
+        //    public string PhoneNumber { get; set; } = default!;
+        //    public string DrivingLiense { get; set; } = default!;
+        //    public string DriverName { get; set; } = default!;
+        //    public string LastLocation { get; set; } = default!;
+        //    public bool Availability { get; set; }
+        //}
         public class WasteManagement
         {
             [Key]
