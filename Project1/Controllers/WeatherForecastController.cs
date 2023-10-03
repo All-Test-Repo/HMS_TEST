@@ -17,6 +17,10 @@ namespace Project1.Controllers
         {
             _logger = logger;
         }
+        /// <summary>
+        /// new 
+        /// </summary>
+        /// <returns></returns>
 
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
